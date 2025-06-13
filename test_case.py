@@ -15,8 +15,6 @@ import time
         ("a"*1000,"b"*1000,"Username and password do not match any user in this service"),  #TC007
         ("' OR 1=1 --", "secret_sauce", "Username and password do not match any user in this service"), #TC008
         ("<script>alert(1)</script>", "secret_sauce", "Username and password do not match any user in this service") #TC009
-
-
     ]
 )
 
