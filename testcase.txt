@@ -1,0 +1,13 @@
+測試編號        測試項目          測試步驟                                      預期測試結果 
+TC001          登入成功          輸入正確的帳號密碼並登入                      登入成功並進入網頁首頁
+TC002          帳號為空          輸入空的帳號和正確的密碼並登入                顯示Username is required
+TC003          密碼為空          輸入正確的帳號和空的密碼並登入                顯示Password is required
+TC004          帳號和密碼為空    輸入空的帳號和空的密碼                        顯示Username is required
+TC005          帳號錯誤          輸入錯誤的帳號並登入                         顯示Username and password do not match any user in this service
+
+
+TC006          密碼長度錯誤      輸入錯誤長度的密碼並註冊                      顯示密碼長度錯誤
+TC007          密碼與確認密碼不符 輸入正確的密碼和不相同的確認密碼並註冊         顯示確認密碼錯誤
+TC008          帳號已存在        輸入已存在的帳號並註冊                        顯示帳號已存在
+
+TC009          安全性測試        在密碼欄位輸入<script>alert(1)</script>      系統要阻擋程式碼不被寫到網頁裡面
